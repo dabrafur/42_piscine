@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@vogsphere-v2.42sp.org.br:vogsphere/intra-uuid-aedc47c2-f128-42dc-bfb2-46f7ec42d3af-5925235-deabraha
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
