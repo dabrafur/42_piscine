@@ -1,1 +1,0 @@
-ls -tp | awk '{printf $0 ", "}' | sed 's/, $/\n/'
